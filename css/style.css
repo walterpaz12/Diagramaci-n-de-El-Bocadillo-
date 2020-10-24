@@ -379,6 +379,7 @@ header img{
 	border: 0px;
 	letter-spacing: 1px;
 	text-align: center;
+	margin-top: 1%;
 	
 }
 
@@ -438,6 +439,7 @@ header img{
 	padding-bottom:5%;
 }
 
+
 	
 .subtitulo{
 	font-size: 20px;
@@ -474,6 +476,19 @@ header img{
 
 .circulo:hover {
 box-shadow: 0px 0px 5px 2px #dddd;
+background: var(--color-principal);
+}
+
+.circulo i {
+
+color: var(--color-principal);
+}
+
+
+
+.circulo i:hover {
+
+color: var(--color-rojizo);
 }
 
     #sec-rec p{
@@ -481,6 +496,7 @@ box-shadow: 0px 0px 5px 2px #dddd;
 	color: #000000;
 	font-weight: 800;
 	margin-bottom: 20px;
+	
 	}
 	
 #sec-rec p:hover{
@@ -545,4 +561,133 @@ margin-top: 20%;
 .btn-gorro{
 	
 	margin-top: 38%;
+}
+
+.sdia{
+	
+	margin-bottom: 5%;
+}
+
+#sobre_nosotros{
+	
+	margin-top: 5%;
+	text-align: center;
+}
+
+#sobre_nosotros h1{
+	
+	color: var(--color-rojizo);
+}
+
+.text-sn{
+	
+	margin-top: 15%;
+	text-align: justify;
+}
+
+.hb{
+	
+	margin-top: 15%;
+}
+
+.btn-sn {
+	font-family: Open Sans;
+    background: var(--color-rojizo); 
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-radius: 0px;
+	padding: 10px;
+	border: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.btn-sn:hover {
+	
+	background: var(--color-principal);
+	color: var(--color-blanco);
+}
+
+
+
+#contact{
+	
+	margin-top: 5%;
+	text-align: center;
+	
+	
+}
+
+#contact h1{
+	
+	color: var(--color-rojizo);
+}
+
+#contact h3{
+	
+	margin-bottom: 5%;
+}
+
+
+.btn-solicitud{
+	font-family: Open Sans;
+    background: var(--color-rojizo); 
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-radius: 0px;
+	padding: 10px;
+	border: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 65%;
+}
+
+.btn-solicitud:hover {
+	
+	background: var(--color-principal);
+	color: var(--color-blanco);
+}
+
+footer{
+	
+	text-align: center;
+	background: var(--color-rojizo);
+	margin-top: 5%;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+
+
+footer i{
+	
+	width: 50px;
+	margin-top:105%;
+	margin-bottom: 5%;
+	color: var(--color-principal);
+	
+}
+
+.right{
+	
+	color: var(--color-principal);
+	padding-top: 3%;
+}
+
+.footer_bandera{
+	
+	width: 50px;
+    height: 30px;
+	margin-left: 350%;
+	margin-top: 50%;
+	
+	
+}
+
+.footer_eb{
+	
+	margin-top: 10%;
+	
 }
