@@ -663,12 +663,18 @@ footer{
 
 footer i{
 	
-	width: 50px;
+	width: 40px;
 	margin-top:105%;
 	margin-bottom: 5%;
 	color: var(--color-principal);
-	
+	font-size: 30px	
 }
+
+footer i:hover{
+	
+	color: var(--color-blanco);
+	
+	}
 
 .right{
 	
@@ -690,4 +696,25 @@ footer i{
 	
 	margin-top: 10%;
 	
+}
+
+.footer_cr{
+	
+	margin-top: 10%;
+	color: var(--color-principal);
+}
+
+@media (min-width:320px) and (max-width:480px){
+}
+
+@media (min-width:481px) and (max-width:768px){
+}
+
+@media (min-width:769px) and (max-width:1024px){
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+}
+
+@media (min-width:1201px){
 }
