@@ -52,8 +52,14 @@ header img{
 }
 
 .header-area.sticky{
-	background-color: #fff!important;
+	background-color: var(--color-rojizo)!important;
 	}
+
+.navbar-light {
+	
+	background-color:transparent!important;
+	font-size:20px;	
+}
 
 
 .header-area.sticky .navbar-default{
@@ -61,11 +67,25 @@ header img{
 }
 
 .header-area.sticky .navbar-light .navbar-nav .nav-link{
-	color: var(--color-negro);
+	color: #3F1414;
+	
+	
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link:hover{
+	color: var(--color-blanco);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-principal);
+	
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: #FFFFFF;
+	opacity: 0.6
 }
 
 .header-area.sticky .navbar-light .navbar-nav .active .nav-link{
-	color: var(--color-azul-oscuro);
+	color: var(--color-principal);
 }
 
 
@@ -73,7 +93,7 @@ header img{
 	color: var(--color-negro);
 }
 .header-area.sticky .navbar-light .navbar-nav .active .nav-link{
-	color: var(--color-azul-oscuro);
+	color: var(--color-principal);
 }
 .header-area.sticky .navbar-light .navbar-brand {
 	color: var(--color-negro);
