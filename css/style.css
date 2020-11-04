@@ -744,19 +744,33 @@ footer i:hover{
 /*Celular: < 480px */
 @media (max-width:480px){
 	
-	#hero{
+	#slides{
 		text-align: center;
 	}
-	#hero .info{
-		margin-left: 0px;
-	}
-	#hero h1{
-		margin-top: 0;
-	}
+	
+	
+	
 	.titulo{
 		margin-top: 10%;
 		text-align: center;
 	
+	}
+	
+	.tres_jordi {
+		padding-right: 25%;
+		text-align: justify;
+		
+	}
+	
+	#videos{
+		
+		margin-right: 25%;
+	}
+	
+	.cordero {
+		
+		margin-top: 15%;
+		margin-left: 25%;
 	}
 	
 	}
