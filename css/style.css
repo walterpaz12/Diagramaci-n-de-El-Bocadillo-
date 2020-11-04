@@ -725,6 +725,108 @@ footer i:hover{
 }
 
 
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+.app-carousel .owl-item.active{
+	
+	
+}
+
+#sabores p{
+	color: var(--color-negro);
+	font-size: 15px;
+	margin-bottom: 5%;
+	font-style: italic;
+	
+}
+
+#sabores h2{
+	color: var(--color-rojizo);
+	margin-top: 5%;
+	
+	
+}
+
+#testimonios{
+	
+	background-color: #AA0717;
+}
+
+#testimonios p{
+	
+color: var(--color-blanco);
+text-align: justify;
+	
+	
+}
+
+
+
+#testimonios h2{
+	
+color: var(--color-blanco);
+text-align: center;
+margin-bottom: 3%;
+margin-top: 7%;
+	
+}
+
+#testimonios img{
+
+margin-top: 7%;
+	
+}
+	
+#testimonios .tab-content{
+	
+	padding: 40px 0;
+}
+
+#testimonios .nav-tabs a{
+	
+
+	color:var(--color-principal);
+	font-size: 20px;
+	border: 0;
+	border-radius: 0;
+	padding: 5px 10px;
+}
+
+#how-it-work .nav-tabs a.active{
+	
+	background-color: var(--color-principal);
+	color: var(--color-principal);
+	
+	
+	
+}
+
+
+#how-it-work .nav-tabs{
+	box-shadow: 0px 0px 10px 0px #ddd;
+	background-color: #fff;
+	
+	
+}
+
+
 
 
 /*Media Queries*/
