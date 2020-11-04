@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>El Bocadillo - Bienvenidos</title>
  <link href="img/icono_el_bocadillo.png" rel="icon">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/icofont.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 <link href="css/jquery.fancybox.min.css" rel="stylesheet">
@@ -316,7 +317,101 @@
 	   </div>
 	   </div>
 	   </div>
-	   </section>
+			
+		</section>
+	<section id="testimonios" class="section">
+		     <div class="container">
+				<div class="row"> 
+				 
+				 <article class="col-md-6 col-sm-12">
+					<img src="img/chef_vi_.jpg" class="img-fluid" alt="jcm">
+				</article>
+					
+					<article class="col-md-6 col-sm-12">
+						<h2 class="titulos"><b>Testimonios</b></h2>
+					<ul class="nav nav-tabs">
+						<li class="nav-item"><a href="#ivan" class="nav-link active" data-toggle="tab"> 1. Iván Reyes</a></li>
+						<li class="nav-item"><a href="#carlos" class="nav-link" data-toggle="tab">2. Carlos Lisandro</a></li>
+						<li class="nav-item"><a href="#ana" class="nav-link" data-toggle="tab">3. Ana Quezada</a></li>
+				</ul>
+						<div class="tab-content">
+						<article id="ivan" class="tab-pane fade show active" >
+							
+						
+						<p><i>"¡Todo perfecto la comida exquisita y el servicio excelente recomendable para cualquier ocasión especial. Nos llevaron a visitar la cocina virtual y todo el equipo muy simpático!"</i> -Iván Reyes</p>
+							
+							
+							</article>
+						
+						
+						<article id="carlos" class="tab-pane fade ">
+							
+						<p><i>"¡Todo perfecto la comida exquisita y el servicio excelente recomendable para cualquier ocasión especial. Nos llevaron a visitar la cocina virtual y todo el equipo muy simpático!"</i> -Carlos Lisandro</p>
+						
+						
+							
+							</article>
+							
+							
+						<article id="ana" class="tab-pane fade ">
+							
+						<p><i>"El Bocadillo me recuerda a mi infancia. La decoración es acogedora. Te hace sentir a gusto. La comida es abundante aunque los platos no están muy conseguidos."</i> -Ana Quezada</p>
+						
+					
+							
+							
+						</article>
+						   </div>	
+					    </article>
+				          </div>
+				          </div>
+					
+						
+					
+						
+						
+					
+				        
+	
+	
+	
+	        </section>
+	
+	
+	 <section id="sabores" class="section">
+	           <div class="container-fluid">
+				   <h2 class="text-center"><b>Los mejores sabores del mundo</b></h2>
+				   <p class="text-center">La vida es una receta y hay que disfrutarla.</p>
+				</div>
+				  
+				  <!-- owl-carrousel -->
+				  
+				  <div class="app-carousel owl-carousel">
+				  <div>
+					  <img src="img/afbf20d58a820bce981add29d11f5905.jpg" class="img-fluid" alt="1app">
+				  </div>
+				  
+				  <div>
+					  <img src="img/food-750.jpg" class="img-fluid" alt="2app">
+				  </div>
+					  
+					  <div>
+					  <img src="img/french-meal-from-above.jpg" class="img-fluid" alt="3app">
+				  </div>
+					  
+					  <div>
+					  <img src="img/lous-pizza.png" class="img-fluid" alt="4app">
+				  </div>
+					  
+					  <div>
+					  <img src="img/Portion-sizes-charity-identifies-plenty-of-opportunities-for-food-business-to-do-more_wrbm_large.jpg" class="img-fluid" alt="5app">
+				  </div>
+				  
+				  
+				  </div>
+
+
+	          </section>
 	
 	   <section id="tienda_el_bocadillo">
 	  <div class="container">
@@ -646,7 +741,7 @@
               new WOW().init();
               </script>
 	
-    <script>
+   <script>
 		$(function() {
 			$(window).on('scroll', function () {
 				if ($(window).scrollTop() > 48) {
@@ -662,6 +757,26 @@
 				easing: 'easeOutQuad'
         	});
 			
+			$(".app-carousel").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				smartSpeed: 800,
+				margin: 30,
+				center: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					480: {
+						items: 3
+					},
+					992: {
+						items: 5
+					}
+				}
+			});
 			
 			
 		});
