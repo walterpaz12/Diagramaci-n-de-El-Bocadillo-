@@ -263,6 +263,24 @@ header img{
     color: var(--color-principal);
 }
 
+.btn-masterc {
+	font-family: Open Sans;
+    background: var(--color-rojizo); 
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-radius: 0px;
+	padding: 15px;
+	border: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.btn-masterc:hover{
+	
+	background: var(--color-principal);
+}
+
+
 
 	
 .btn-videos {
@@ -271,7 +289,7 @@ header img{
 	color: #FFFFFF;
 	text-transform: uppercase;
 	border-radius: 0px;
-	padding: 20px;
+	padding: 15px;
 	border: 0px;
 	letter-spacing: 1px;
 	text-align: center;
@@ -284,7 +302,7 @@ header img{
 
 .cordero{
 	
-	margin-left: 20%;
+	margin-right: 2%;
 }
 
 .texto-jordi-receta-atun{
